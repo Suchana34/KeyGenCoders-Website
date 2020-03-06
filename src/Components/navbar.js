@@ -30,7 +30,7 @@ class NavBar extends React.Component {
           <Nav fill activeKey={this.props.location.pathname} className="ml-auto flex-column flex-md-row">
 
             <Nav.Item>
-              <Nav.Link href="/home">HOME</Nav.Link>
+              <Nav.Link href="/">HOME</Nav.Link>
             </Nav.Item>
             
             <div style={{

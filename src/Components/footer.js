@@ -6,9 +6,10 @@ class Footer extends Component{
   render(){
     return(
         <div>
-        <Card bg="dark" text="white">
-          <Card.Title style = {{'text-align': 'center'}}>Created with ❤ by a team of developers and designers.</Card.Title>
-          <Card.Text style = {{'text-align': 'center'}}>© 2020 KeyGenCoders. All rights reserved.</Card.Text>
+            
+        <Card bg="dark" text="white" style = {{'width' : '100%', border: 'none'}}>
+          <Card.Title style = {{'text-align': 'center', padding: 0.3 + 'rem'}}>Created with <span>❤</span>  by a team of developers and designers.</Card.Title>
+          <Card.Text style = {{'text-align': 'center', padding: 0.3 + 'rem'}}>© 2020 KeyGenCoders. All rights reserved.</Card.Text>
         </Card>
         </div>
     ); 
