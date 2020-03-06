@@ -9,7 +9,7 @@ class Footer extends Component{
             
         <Card bg="dark" text="white" style = {{'width' : '100%', border: 'none'}}>
           <Card.Title style = {{'text-align': 'center', padding: 0.3 + 'rem'}}>Created with <span>❤</span>  by a team of developers and designers.</Card.Title>
-          <Card.Text style = {{'text-align': 'center', padding: 0.3 + 'rem'}}>© {new Date().getFullYear()} KeyGenCoders. All rights reserved.</Card.Text>
+          <Card.Text style = {{'text-align': 'center', padding: 0.3 + 'rem'}}>© {new Date().getFullYear()} KeyGEnCoders. All rights reserved.</Card.Text>
         </Card>
         </div>
     ); 

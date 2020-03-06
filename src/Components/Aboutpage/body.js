@@ -29,7 +29,7 @@ class Body extends React.Component {
               color: "white"
             }}
           >
-            Started in 2015 as a Facebook page, KeyGenCoders kicked off as a
+            Started in 2015 as a Facebook page, KeyGEnCoders kicked off as a
             group to help students venture further into the fields of
             Competitive programming and later pivoted to a full-fledged club
             that brought together KGECians to learn Web Development, Data
