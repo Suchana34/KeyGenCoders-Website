@@ -2,6 +2,10 @@ import React from "react";
 import "./App.css";
 
 import Home from "./Pages/homepage";
+import Team from "./Pages/teampage";
+import About from "./Pages/about";
+
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -23,6 +27,9 @@ function App() {
         <NavWithRouter />
         <Switch>
           <Route path="/" exact component = {Home} />
+          <Route path="/team" exact component = {Team} />
+          <Route path="/about_us" exact component = {About} />
+
         </Switch>
         <Footer />
       </Router>

@@ -35,6 +35,7 @@ class Body extends React.Component {
             who wants to.
           </Card.Text>
           <Button
+            href="#"
             variant="info"
             style={{
               width: 100 + "px",
