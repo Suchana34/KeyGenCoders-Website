@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import StyledCardGroup from "../../Styles/Cardgroup_Style";
 import image from "../../Assets/undraw_coding_6mjf.svg";
+import ReactRotatingText from 'react-rotating-text';
 
 class Body extends React.Component {
   render() {
@@ -20,7 +21,8 @@ class Body extends React.Component {
 
           <Card.Title style = {{textAlign: 'center', marginTop: 'auto'}}> <span>👋</span>, We are KeyGenCoders</Card.Title>
         </Card>
-
+        
+      
         <Card bg="dark" text="white"
          style={{ 
           border: "none",
@@ -28,7 +30,9 @@ class Body extends React.Component {
           }}
           >
           <Card.Title style = {{marginTop:'auto', textAlign: 'center'}}>
-            We are a group of students who love to solve problems through code.
+            
+          <ReactRotatingText items={['We are a group of students', 'who love to', 'solve problems through code']} />
+
           </Card.Title>
           <Card.Text style={{marginBottom:'auto' ,textAlign: 'center',color: '#e91e63'}}>
             Our core aim is to make computer science easy to learn for everyone
