@@ -20,14 +20,14 @@ class NavBar extends React.Component {
         />  
         </Navbar.Brand>
 
-        <Navbar.Brand href="/" className = "title">KeyGen Coders</Navbar.Brand>
+        <Navbar.Brand href="/" className="title">KeyGEnCoders</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" activeStyle={{ border: `none` }}
         style={{ border: `none` }} />
 
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav fill activeKey={this.props.location.pathname} className="ml-auto flex-column flex-md-row">
+          <Nav fill variant="pills" activeKey={this.props.location.pathname} className="ml-auto flex-column flex-md-row">
 
             <Nav.Item>
               <Nav.Link href="/">HOME</Nav.Link>
