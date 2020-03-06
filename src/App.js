@@ -18,7 +18,7 @@ const NavWithRouter = withRouter(NavBar);
 
 function App() {
   return (
-    <div>
+    <div style = {{backgroundColor: '#343a40'}}>
       <Router>
         <NavWithRouter />
         <Switch>
