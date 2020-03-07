@@ -15,23 +15,24 @@ class Body extends React.Component {
             border: "none",
             padding: 1 + "em",
           }}
-          className="d-none d-md-block my-auto"
         >
           <Card.Img src={image}></Card.Img>
 
-          <Card.Title style = {{textAlign: 'center', marginTop: 'auto'}}> <span>👋</span>, We are KeyGenCoders</Card.Title>
+          <Card.Title style = {{textAlign: 'center', marginTop: 'auto', height: 30 + 'px',
+              boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
+            }}> <span>👋</span>, We are KeyGenCoders</Card.Title>
         </Card>
         
       
         <Card bg="dark" text="white"
          style={{ 
           border: "none",
-          padding: 1 + 'em' 
+          padding: 1 + 'em',
           }}
           >
           <Card.Title style = {{marginTop:'auto', textAlign: 'center'}}>
             
-          <ReactRotatingText items={['We are a group of students', 'who love to', 'solve problems through code']} />
+          <ReactRotatingText items={['We are a group of students', 'who love to solve problems', 'through code']} />
 
           </Card.Title>
           <Card.Text style={{marginBottom:'auto' ,textAlign: 'center',color: '#e91e63'}}>
@@ -42,10 +43,12 @@ class Body extends React.Component {
             href="#"
             variant="info"
             style={{
-              width: 100 + "px",
+              width: 120 + "px",
               padding: 0.5 + "em",
               alignSelf: 'center',
-              marginBottom: 'auto'
+              marginBottom: 'auto',
+              boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
+
             }}
           >
             Join Us{" "}

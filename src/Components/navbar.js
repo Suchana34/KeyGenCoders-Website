@@ -7,20 +7,24 @@ class NavBar extends React.Component {
   render() {
     return (
       <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{
+        boxShadow: '0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.15)',
+      }}>
         <Navbar.Brand href="/"><img
         alt=""
         src={logo}
         style={{
           height: 60 + "px",
           width: 60 + "px",
-          marginRight: 10 + "px"
+          marginRight: 10 + "px",
+          boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
+
         }}
         className="d-inline-block align-top"
         />  
         </Navbar.Brand>
 
-        <Navbar.Brand href="/" className="title">KeyGEnCoders</Navbar.Brand>
+        <Navbar.Brand href="/" className="title" style={{textShadow: '1px 1px 1px #FFF'}}>KeyGEnCoders</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" activeStyle={{ border: `none` }}
         style={{ border: `none` }} />
@@ -53,7 +57,8 @@ class NavBar extends React.Component {
 
             <div style={{
               width: '40px',
-              height: '10px'
+              height: '10px',
+              
             }}></div>
 
             <Nav.Item>

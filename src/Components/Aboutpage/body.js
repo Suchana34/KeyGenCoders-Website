@@ -10,9 +10,11 @@ class Body extends React.Component {
           style={{
             border: "none",
             padding: 2 + "em",
-            marginTop: "4%",
+            marginTop: "6%",
             marginLeft: "4%",
-            marginRight: "4%"
+            marginRight: "4%",
+            boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
+            borderRadius: 5
           }}
         >
           <Card.Title
@@ -21,7 +23,7 @@ class Body extends React.Component {
               color: "white"
             }}
           >
-            How it all started ?
+          ✈ How it all started ?
           </Card.Title>
           <Card.Text
             style={{
@@ -54,7 +56,7 @@ class Body extends React.Component {
               color: "white"
             }}
           >
-            Accomplishments <span>🎯</span>
+          <span>🎯</span>  Accomplishments 
           </Card.Title>
           <Card.Text
             style={{
@@ -62,11 +64,17 @@ class Body extends React.Component {
               color: "white"
             }}
           >
-            <ListGroup style = {{border: 'none'}}>
-              <ListGroup.Item variant="dark" style = {{padding: 2+'rem'}}>Multiple Qualifications in ICPC regionals, with 2-digit ranks at national level.</ListGroup.Item>
-              <ListGroup.Item variant="dark" style = {{padding: 2+'rem'}}>Past members have cracked internships in Adobe, Google, IITs.</ListGroup.Item>
-              <ListGroup.Item variant="dark" style = {{padding: 2+'rem'}}>Winner at multiple hackathons including the prestigious Smart India Hackathon.</ListGroup.Item>
-              <ListGroup.Item variant="dark" style = {{padding: 2+'rem'}}>Under 100 ranks in Codechef Long Challenges, mulitple 5 star and above coders.</ListGroup.Item>
+            <ListGroup style = {{border: 'none',
+            marginTop: "4%",
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginBottom: '7%',
+            boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',}}>
+
+              <ListGroup.Item variant="dark" style = {{padding: 2+'rem', fontSize: 1.1 + 'rem'}}>✔ Multiple Qualifications in ICPC regionals, with 2-digit ranks at national level.</ListGroup.Item>
+              <ListGroup.Item variant="dark" style = {{padding: 2+'rem', fontSize: 1.1 + 'rem'}}>✔ Past members have cracked internships in Adobe, Google, IITs.</ListGroup.Item>
+              <ListGroup.Item variant="dark" style = {{padding: 2+'rem', fontSize: 1.1 + 'rem'}}>✔ Winner at multiple hackathons including the prestigious Smart India Hackathon.</ListGroup.Item>
+              <ListGroup.Item variant="dark" style = {{padding: 2+'rem', fontSize: 1.1 + 'rem'}}>✔ Under 100 ranks in Codechef Long Challenges, mulitple 5 star and above coders.</ListGroup.Item>
             </ListGroup>
           </Card.Text>
         </Card>
