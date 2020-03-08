@@ -5,7 +5,7 @@ import Icon from "@mdi/react";
 function Details(props) {
   const member = props.member;
   return (
-    <Card bg="dark" text="white" className="col-lg-10 col-sm-10 col-md-10"
+    <Card bg="dark" text="white"
         
     style={{
           boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
@@ -13,7 +13,10 @@ function Details(props) {
           border: `none`,
           padding: 2 + 'rem',
           maxWidth: 18 + `rem`,
-          marginBottom: 20 + `px`
+          minWidth: 18 + 'rem',
+          marginBottom: 5 + `rem`,
+          marginLeft: 1 +'rem',
+
         }}>
         
       <Card.Img

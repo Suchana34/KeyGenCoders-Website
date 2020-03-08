@@ -15,7 +15,7 @@ function Body(props) {
         >
           Professors
         </p>
-        <StyledCardColumns>
+        <StyledCardColumns >
         {professors.map((member) => {
           return (
             <Details member={member} />
