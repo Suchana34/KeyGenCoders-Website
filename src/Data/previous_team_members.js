@@ -1,38 +1,32 @@
 
-import ayushman from '../Assets/Ayushman_Bilas_Thakur.jpeg';
+import sourabh from '../Assets/sourabh_jha.jpeg';
 
 import {
-    mdiTwitter,
     mdiLinkedin,
-    mdiWeb,
     mdiGithubCircle,
     mdiEmail
 } from "@mdi/js";
 
 
 let previous_team_members = [{
-    name: "Ayushman Bilas Thakur",
-    picture: ayushman,
+    name: "Sourabh Jha",
+    picture: sourabh,
     links: [
         {
             to: 'linkedin',
             icon: mdiLinkedin,
-            link: "https://www.linkedin.com/in/ayushman-bilas-thakur-13162a16b/"
+            link: "https://www.linkedin.com/in/sourab-j/"
         },
         {
             to: 'github',
             icon: mdiGithubCircle,
-            link: 'https://github.com/AyushmanBilasThakur'
+            link: 'https://github.com/hundredrab'
         },
-        {
-            to: 'website',
-            icon: mdiWeb,
-            link: 'https://www.ayushmanbthakur.com/'
-        },
+        
         {
             to: 'email',
             icon: mdiEmail,
-            link: "mailto:ayushmanbilasthakur@gmail.com"
+            link: "mailto:jha.sourab@gmail.com"
         }
     ]
 }

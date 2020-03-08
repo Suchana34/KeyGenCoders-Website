@@ -1,38 +1,19 @@
-import ayushman from '../Assets/Ayushman_Bilas_Thakur.jpeg';
+import kdsir from '../Assets/KD_sir.jpg';
 
 
 import {
-    mdiTwitter,
-    mdiLinkedin,
-    mdiWeb,
-    mdiGithubCircle,
     mdiEmail
 } from "@mdi/js";
 
 
 let professors = [{
-    name: "Ayushman Bilas Thakur",
-    picture: ayushman,
+    name: "Dr. Kousik Dasgupta",
+    picture: kdsir,
     links: [
-        {
-            to: 'linkedin',
-            icon: mdiLinkedin,
-            link: "https://www.linkedin.com/in/ayushman-bilas-thakur-13162a16b/"
-        },
-        {
-            to: 'github',
-            icon: mdiGithubCircle,
-            link: 'https://github.com/AyushmanBilasThakur'
-        },
-        {
-            to: 'website',
-            icon: mdiWeb,
-            link: 'https://www.ayushmanbthakur.com/'
-        },
         {
             to: 'email',
             icon: mdiEmail,
-            link: "mailto:ayushmanbilasthakur@gmail.com"
+            link: "mailto:kousik.dasgupta@kgec.edu.in"
         }
     ]
 }

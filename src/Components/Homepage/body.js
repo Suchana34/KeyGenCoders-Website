@@ -18,7 +18,7 @@ class Body extends React.Component {
         >
           <Card.Img src={image}></Card.Img>
 
-          <Card.Title style = {{textAlign: 'center', marginTop: 'auto', height: 30 + 'px',
+          <Card.Title style = {{textAlign: 'center', marginTop: 'auto', height: 2.2 + 'rem',
               boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
             }}> <span>👋</span>, We are KeyGenCoders</Card.Title>
         </Card>
