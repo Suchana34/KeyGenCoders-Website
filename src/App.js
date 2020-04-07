@@ -23,7 +23,7 @@ const NavWithRouter = withRouter(NavBar);
 function App() {
   return (
     <div style = {{backgroundColor: '#343a40'}}>
-      <Router basename = {'/KeyGEnCoders'}>
+      <Router basename = {'/KeyGenCoders-Website'}>
         <NavWithRouter />
         <Switch>
           <Route path="/" exact component = {Home} />
