@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/KeyGEnCoders/static/css/main.19107fd9.chunk.css",
+    "main.js": "/KeyGEnCoders/static/js/main.661ef22d.chunk.js",
+    "main.js.map": "/KeyGEnCoders/static/js/main.661ef22d.chunk.js.map",
+    "runtime-main.js": "/KeyGEnCoders/static/js/runtime-main.ef8009ca.js",
+    "runtime-main.js.map": "/KeyGEnCoders/static/js/runtime-main.ef8009ca.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/KeyGEnCoders/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.d8db9797.chunk.js": "/KeyGEnCoders/static/js/2.d8db9797.chunk.js",
+    "static/js/2.d8db9797.chunk.js.map": "/KeyGEnCoders/static/js/2.d8db9797.chunk.js.map",
+    "index.html": "/KeyGEnCoders/index.html",
+    "precache-manifest.4d7e52d2ca189f2862a37ada65450dd7.js": "/KeyGEnCoders/precache-manifest.4d7e52d2ca189f2862a37ada65450dd7.js",
+    "service-worker.js": "/KeyGEnCoders/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/KeyGEnCoders/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.19107fd9.chunk.css.map": "/KeyGEnCoders/static/css/main.19107fd9.chunk.css.map",
+    "static/js/2.d8db9797.chunk.js.LICENSE.txt": "/KeyGEnCoders/static/js/2.d8db9797.chunk.js.LICENSE.txt",
+    "static/media/Abhinav_Ghosh.jpeg": "/KeyGEnCoders/static/media/Abhinav_Ghosh.9dac07fe.jpeg",
+    "static/media/Ankit_Kurmi.jpeg": "/KeyGEnCoders/static/media/Ankit_Kurmi.19f7b8d9.jpeg",
+    "static/media/Ayushman_Bilas_Thakur.jpeg": "/KeyGEnCoders/static/media/Ayushman_Bilas_Thakur.59f253ef.jpeg",
+    "static/media/Ritankar_Paul.jpeg": "/KeyGEnCoders/static/media/Ritankar_Paul.2f1bd388.jpeg",
+    "static/media/Suchana_Chakrabarti.jpg": "/KeyGEnCoders/static/media/Suchana_Chakrabarti.d28191ba.jpg",
+    "static/media/krishna_bose.jpg": "/KeyGEnCoders/static/media/krishna_bose.201c6874.jpg",
+    "static/media/logo.jpg": "/KeyGEnCoders/static/media/logo.82c2465f.jpg",
+    "static/media/mayukh_Sengupta.jpg": "/KeyGEnCoders/static/media/mayukh_Sengupta.e71bc3d7.jpg",
+    "static/media/saranya.jpeg": "/KeyGEnCoders/static/media/saranya.96dada3b.jpeg",
+    "static/media/sayanti.jpeg": "/KeyGEnCoders/static/media/sayanti.53971a13.jpeg",
+    "static/media/sourabh_jha.jpeg": "/KeyGEnCoders/static/media/sourabh_jha.8cbdbe4b.jpeg",
+    "static/media/sujan_dutta.jpg": "/KeyGEnCoders/static/media/sujan_dutta.d1911695.jpg",
+    "static/media/undraw_coding_6mjf.svg": "/KeyGEnCoders/static/media/undraw_coding_6mjf.46d9f22b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef8009ca.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.d8db9797.chunk.js",
+    "static/css/main.19107fd9.chunk.css",
+    "static/js/main.661ef22d.chunk.js"
+  ]
+}
